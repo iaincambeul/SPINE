@@ -111,6 +111,7 @@ class SPINEgene:
         self.num_frag_per_oligo = 1
         self.doublefrag = 0
         self.filename = gene.filename
+        self.usage='human'
         # Set up variables. Could have this as user input in the class
         if self.usage == 'ecoli':
             self.usage = {
